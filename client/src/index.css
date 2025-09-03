@@ -1,0 +1,21 @@
+/* client/src/index.css */
+
+/* Load Tailwind (v4) */
+@import "tailwindcss";
+
+/* Your global theme */
+:root{
+  --bg: #fff8f6;   /* warm paper */
+  --text: #2a2a2a; /* ink */
+}
+html, body, #root { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+
+
